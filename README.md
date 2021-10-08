@@ -23,3 +23,91 @@ After running `lando start` the address should be available in the last part of 
 
 # Accessing the API
 Once you're logged in you can access the API page here: http://localhost:[PORT]/admin/api
+
+# Example of endpoints
+
+## `GET`
+Get all articles - http://localhost:[PORT]/api/articles
+Get all pages - http://localhost:[PORT]/api/pages
+Get all content types - http://localhost:[PORT]/api/contentTypes
+
+## `POST`
+Create new article - http://localhost:49816/api/contentTypes
+Payload:
+ ```
+ {
+  "data": {
+    "type": "articles",
+    "id": "string",
+    "attributes": {
+      "internalId": 0,
+      "isPublished": true,
+      "title": "string",
+      "createdAt": "string",
+      "updatedAt": "string",
+      "isPromoted": true,
+      "revision_default": true,
+      "path": "string",
+      "body": {
+        "value": "string",
+        "format": "string",
+        "summary": "string"
+      }
+    },
+    "relationships": {
+      "contentType": {
+        "data": {
+          "type": "contentTypes",
+          "id": "string"
+        }
+      },
+      "owner": {
+        "data": {
+          "type": "users",
+          "id": "string"
+        }
+      },
+      "image": {
+        "data": {
+          "type": "images",
+          "id": "string"
+        }
+      },
+      "tags": {
+        "data": [
+          {
+            "type": "tags",
+            "id": "string"
+          }
+        ]
+      }
+    },
+    "links": {
+      "property1": {
+        "href": "string",
+        "meta": {}
+      },
+      "property2": {
+        "href": "string",
+        "meta": {}
+      }
+    },
+    "meta": {}
+  },
+  "meta": {},
+  "links": {
+    "property1": {
+      "href": "string",
+      "meta": {}
+    },
+    "property2": {
+      "href": "string",
+      "meta": {}
+    }
+  },
+  "jsonapi": {
+    "version": "string",
+    "meta": {}
+  }
+}
+```

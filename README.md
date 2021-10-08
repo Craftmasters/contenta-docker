@@ -28,7 +28,9 @@ Once you're logged in you can access the API page here: http://localhost:[PORT]/
 
 ## `GET`
 Get all articles - http://localhost:[PORT]/api/articles
+
 Get all pages - http://localhost:[PORT]/api/pages
+
 Get all content types - http://localhost:[PORT]/api/contentTypes
 
 ## `POST`

@@ -39,7 +39,7 @@ Get specific article - http://localhost:[PORT]/api/articles/{entity}
 entity = The uuid of the node article
 
 ## `POST`
-Create new article - http://localhost:49816/api/articles
+Create new article - http://localhost:[PORT]/api/articles
 
 Payload:
  ```

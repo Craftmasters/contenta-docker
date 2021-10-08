@@ -33,3 +33,5 @@ web/sites/*/private
 web/sites/simpletest
 /.editorconfig
 /.gitattributes
+
+keys

@@ -33,6 +33,7 @@ Get all content types - http://localhost:[PORT]/api/contentTypes
 
 ## `POST`
 Create new article - http://localhost:49816/api/contentTypes
+
 Payload:
  ```
  {

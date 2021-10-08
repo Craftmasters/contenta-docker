@@ -15,6 +15,7 @@ This project requires Lando. See https://docs.lando.dev/basics/installation.html
 * Clone this repository
 * Navigate to the code directory
 * Run: `lando start`
+* Import the database: `lando db-import assets/content.sql.gz`
 
 # Contenta Address
 After running `lando start` the address should be available in the last part of the logs. Take note that the port is random.

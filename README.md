@@ -17,6 +17,8 @@ This project requires Lando. See https://docs.lando.dev/basics/installation.html
 * Run: `lando start`
 * Import the database: `lando db-import assets/content.sql.gz`
 
+NOTE: You can use `lando drush uli 1` to reset the admin account.
+
 # Contenta Address
 After running `lando start` the address should be available in the last part of the logs. Take note that the port is random.
 ![image](https://user-images.githubusercontent.com/820842/136503532-4ed89c17-0fa4-47b6-b38c-4cdba0fb41c0.png)

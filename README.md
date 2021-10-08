@@ -8,7 +8,7 @@ This repository is used in order to create a Contenta CMS project using Composer
 If you want to learn how to install Contenta CMS visit http://www.contentacms.org/#install. If you
 want documentation about Contenta CMS visit http://www.contentacms.org.
 
-# Prerequiresite
+# Prerequisite
 This project requires Lando. See https://docs.lando.dev/basics/installation.html for installation.
 
 # Installation

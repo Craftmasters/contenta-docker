@@ -33,8 +33,13 @@ Get all pages - http://localhost:[PORT]/api/pages
 
 Get all content types - http://localhost:[PORT]/api/contentTypes
 
+## For getting specific content: `GET`
+Get specific article - http://localhost:[PORT]/api/articles/{entity}
+
+entity = The uuid of the node article
+
 ## `POST`
-Create new article - http://localhost:49816/api/contentTypes
+Create new article - http://localhost:49816/api/articles
 
 Payload:
  ```
@@ -117,6 +122,13 @@ Payload:
 
 ## `DELETE`
 Delete an article - http://localhost:[PORT]/api/articles/{entity}
+
+entity = The uuid of the node article
+
+## `PATCH`
+Update the article - http://localhost:[PORT]/api/articles/{entity}
+
+entiy = The uuid of the node article
 
 Payload:
 ```
